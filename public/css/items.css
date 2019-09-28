@@ -1,0 +1,19 @@
+#itemTable {
+    width: 100%;
+}
+
+#table {
+    display: flex;
+    flex-direction: column;
+    table-layout: fixed;
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid #FFF;
+}
+
+#table td {
+    border: 1px solid #FFF;
+    text-align: center;
+    border-collapse: collapse;
+}

@@ -1,0 +1,48 @@
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 5vw;
+}
+
+.inputs div {
+    margin: 3vh 0px 3vh 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#itemName,
+#itemAmount,
+#itemCategory {
+    background-color: #FFF;
+    min-width: 20vw;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 1vh;
+}
+
+#itemName:focus,
+#itemAmount:focus,
+#itemCategory:focus {
+    transition: ease-in 0.3s;
+    padding: 7px;
+}
+
+.submitButton {
+    width: 25vw;
+    height: 7vh;
+    border-style: solid;
+    border-color: #6ac970;
+    border-width: 7px;
+    border-radius: 30px;
+    background: none;
+    font-size: 75%;
+    text-align: center;
+}
+
+.submitButton:hover {
+    background-color: #6ac970;
+    color: #FFF;
+    transition-duration: 0.3s;
+}

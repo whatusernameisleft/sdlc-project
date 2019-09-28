@@ -1,0 +1,23 @@
+{
+  "name": "sdlc_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "SDLC.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whatusernameisleft/sdlc-project.git"
+  },
+  "author": "Galaxy Crusher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whatusernameisleft/sdlc-project/issues"
+  },
+  "homepage": "https://github.com/whatusernameisleft/sdlc-project#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nedb": "^1.8.0"
+  }
+}
